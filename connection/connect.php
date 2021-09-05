@@ -1,10 +1,10 @@
 <?php
 
 //main connection file for both admin & front end
-$servername = "localhost"; //server
-$username = "root"; //username
-$password = ""; //password
-$dbname = "online_rest";  //database
+$servername = "remotemysql.com"; //server
+$username = getenv('USERNAME'); //username
+$password = getenv('PASSWORD'); //password
+$dbname = getenv('USERNAME');  //database
 
 // Create connection
 $db = mysqli_connect($servername, $username, $password, $dbname); // connecting 
