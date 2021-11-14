@@ -21,10 +21,14 @@ session_start(); //start temp session until logout/browser closed
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    
+    <meta name="description" content="Online food ordering and food delivery application">
+
     <meta name="author" content="">
     <link rel="icon" href="#">
+
     <title>Starter Template for Bootstrap</title>
+    
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -41,7 +45,7 @@ session_start(); //start temp session until logout/browser closed
             <nav class="navbar navbar-dark">
                 <div class="container">
                     <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
-                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/food-picky-logo.png" alt=""> </a>
+                    <a class="navbar-brand" href="index.html"> <img class="img-rounded" src="images/food-picky-logo.png" alt="header"> </a>
                     <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
                         <ul class="nav navbar-nav">
                             <li class="nav-item"> <a class="nav-link active" href="index.php">Home <span class="sr-only">(current)</span></a> </li>
